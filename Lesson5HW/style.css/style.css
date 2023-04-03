@@ -105,15 +105,15 @@ body {
 }
 
 #ListMiddle td {
-    border: 5px solid rgb(170, 170, 146);
-    background-color: rgb(232, 232, 232);
+    border: 5px solid rgb(218, 165, 32);
+    background-color: rgb(255, 229, 180);
     font-style: italic;
     font-size: 20px;
 }
 
 #ListBottom td {
-    border: 5px solid rgb(170, 170, 146);
-    background-color: rgb(232, 232, 232);
+    border: 5px solid rgb(218, 165, 32);
+    background-color: rgb(255, 229, 180); 
     font-style: italic;
     font-size: 20px;
 }
@@ -129,5 +129,7 @@ body {
 
 #input {
     font-size: 20px;
+    border-radius: 20px;
     text-align: center;
+
 }
