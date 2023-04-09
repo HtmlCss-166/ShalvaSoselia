@@ -1,0 +1,355 @@
+@font-face {
+    font-family: Alkatra;
+    src: url(/Lesson7HW/style/fonts/Alkatra-VariableFont_wght.ttf);
+} /* New Font */
+
+body {
+    background-color: rgb(101, 67, 33);
+}
+
+.HelpBar {
+    display: flex;
+    font-size: 50px;
+    color: rgb(245, 245, 220);
+    background-image: url(/Lesson7HW/PicturesForL7Hw/Picture1.jpg);
+    background-repeat: repeat;
+    background-size: 500px;
+} /* Help Bar Design */
+
+.GuideBar1 {
+    font-family: Alkatra;
+    margin-left: 180px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.GuideBar2 {
+    font-family: Alkatra;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.GuideBar3 {
+    font-family: Alkatra;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.GuideBar4 {
+    font-family: Alkatra;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.GuideBar5 {
+    font-family: Alkatra;
+    margin-right: 180px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* End Of Top Part */
+
+/* Side Nav Start */
+
+.SideNav a {
+    position: fixed;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5p
+}
+
+#About {
+    color: black;
+    cursor: pointer;
+    top: 20px;
+    background-color: rgb(245, 245, 220);
+  }
+  
+#Blog {
+    color: black;
+    cursor: pointer;
+    top: 80px;
+    background-color: rgb(208, 208, 180);
+}
+  
+#Projects {
+    color: black;
+    cursor: pointer;
+    top: 140px;
+    background-color: rgb(156, 156, 130);
+}
+  
+#Contact2 {
+    color: black;
+    cursor: pointer;
+    top: 200px;
+    background-color: rgb(78, 78, 53);
+}
+
+/* Side Nav End */
+
+.ContactUs {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(141, 161, 141);
+    border-radius: 20px;
+}
+
+#P5 {
+    font-style: italic;
+    color: rgb(245, 245, 220);
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.Link {
+    padding-left: 90px;
+}
+
+#NonexistantNumber {
+    font-style: italic;
+    color: rgb(245, 245, 220);
+    font-size: 20px;
+    padding-left: 45px;
+    padding-top: 50px;
+}
+
+/* End Of Contact Us */
+
+.Info1 {
+    display: flex;
+    background-color: rgb(73, 39, 17);
+    border-radius: 20px;
+}
+
+.Information {
+    width: 50%;
+}
+
+.CoffeeShopPicture {
+    width: 50%;
+}
+
+#P1 {
+    color: rgb(245, 245, 220);
+    font-size: 35px;
+    font-family: Alkatra;
+    padding-right: 200px;
+}
+
+#Pic1 {
+    width: 400px;
+    height: 250px;
+    border: 10px solid rgb(48, 77, 48);
+    padding: 10px;
+    border-radius: 15px 50px 30px;
+    margin-top: 100px;
+    margin-right: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 1.3s;
+}
+
+/* End Of Information 1 */
+
+.Info2 {
+    display: flex;
+    background-color: rgb(73, 39, 17);
+    border-radius: 20px;
+}
+
+.CoffeeShopPicture2 {
+    width: 30%;
+}
+
+.Information2 {
+    width: 70%;
+}
+
+#Pic2 {
+    width: 400px;
+    height: 250px;
+    border: 10px solid rgb(48, 77, 48);
+    padding: 20px;
+    border-radius: 15px 50px 30px;
+    margin-top: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 1.3s;
+}
+
+#P2 {
+    color: rgb(245, 245, 220);
+    font-size: 35px;
+    margin-left: 100px;
+    font-family: Alkatra;
+}
+
+/* End Of Information 2 */
+
+.Info3 {
+    background-color: rgb(73, 39, 17);
+    border-radius: 20px;
+}
+
+#P3 {
+    color: rgb(245, 245, 220);
+    font-size: 35px;
+    font-family: Alkatra;
+}
+
+/* End Of Information 3 */
+
+.Info4 {
+    background-color: rgb(73, 39, 17);
+    border-radius: 20px;
+}
+
+#P4 {
+    color: rgb(245, 245, 220);
+    font-size: 35px;
+    font-family: Alkatra;
+    padding: 50px;
+}
+
+/* End Of Information 4 */
+
+footer {
+    background-color: rgb(41, 21, 9);
+}
+
+.End {
+    display: flex;
+}
+
+.left {
+    width: 33.333%;
+}
+
+.Middle {
+    width: 33.333%;
+}
+
+.Right {
+    width: 33.333%;
+}
+
+#ContactRequest {
+    color: rgb(245, 245, 220);
+    font-size: 35px;
+    font-family: Alkatra;
+    padding: 50px;
+}
+
+#Final {
+    color: rgb(245, 245, 220);
+    font-size: 35px;
+    font-family: Alkatra;
+    padding: 50px;
+    margin-top: 350px;
+    margin-left: 100px;
+}
+
+/* End Of Footer */
+
+#Sub {
+    border: 5px dotted rgb(245, 245, 220);
+    background-color: rgb(141, 161, 141);
+    color: rgba(73, 39, 17, 0.807);
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-family: Alkatra;
+    margin-left: 150px;
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+}
+
+#Input {
+    border: 5px dotted rgb(245, 245, 220);
+    background-color: rgb(141, 161, 141);
+    color: rgb(73, 39, 17);
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: Alkatra;
+    margin-left: 90px;
+    margin-top: 200px;
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+}
+
+/* End Of Input And Button */
+
+/* Hover */
+
+#Pic1:hover {
+    height: 300px;
+    width: 450px;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+#Pic2:hover {
+    height: 300px;
+    width: 450px;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+#Home:hover {
+    cursor: pointer;
+    background-color: rgba(73, 39, 17, 0.452);
+}
+
+#Gallery:hover {
+    cursor: pointer;
+    background-color: rgba(73, 39, 17, 0.452);
+}
+
+#Menu:hover {
+    cursor: pointer;
+    background-color: rgba(73, 39, 17, 0.452);
+}
+
+#Communtiy:hover {
+    cursor: pointer;
+    background-color: rgba(73, 39, 17, 0.452);
+}
+
+#Review:hover {
+    cursor: pointer;
+    background-color: rgba(73, 39, 17, 0.452);
+}
+
+#Sub:hover {
+    background-color: rgb(111, 131, 111);
+}
+
+#Input:hover {
+    background-color: rgb(111, 131, 111);
+    color: black;
+    border-color: rgb(245, 245, 220);
+}
+
+.SideNav a:hover {
+    left: 0;
+}
+
+/* End Of Hover */
+
+#Sub:active {
+    background-color: rgb(62, 84, 62);
+    color: rgb(245, 245, 220);
+}
