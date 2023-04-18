@@ -1,0 +1,312 @@
+@font-face {
+    font-family: LibreItalic;
+    src: url(/Lesson8hw/font/LibreBaskerville-Italic.ttf);
+}
+
+/* new font END */
+
+/* Keyframe START */
+
+@keyframes MyMove {
+    0%   {top: 0px; left: 0px; background: #f2f2f2;}
+    25%  {top: 0px; left: 1300px; background: #b6abab;}
+    50%  {top: 500px; left: 1300px; background: #747474;}
+    75%  {top: 500px; left: 0px; background: #b6abab;}
+    100% {top: 0px; left: 0px; background: #f2f2f2;}
+}
+
+.Box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    animation: MyMove 10s infinite;
+    border-radius: 20px;
+}
+
+#P1 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+#Link {
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+/* Keyframe END */
+
+/* Navigation START */
+
+.Navigation {
+    background-color: #333;
+    overflow: hidden;
+    position: sticky;
+}
+
+.Navigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: transform 5s;
+}
+
+a {
+    font-family: "LibreItalic";
+    transition: transform 5s;
+}
+
+/* Navigation END */
+
+/* Information 1 START */
+
+.Info1 {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.Information1 {
+    width: 40%;
+}
+
+.Image1 {
+    padding-top: 35px;
+    padding-left: 200px;
+    width: 60%;
+}
+
+#P2 {
+    font-family: "LibreItalic";
+    font-size: 30px;
+    padding-left: 30px;
+    background-color: #86928d;
+    border-radius: 20px;
+}
+
+#Pic1 {
+    width: 460px;
+    height: 400px;
+    transition: 2s;
+    border: 5px solid #86928d;
+    border-radius: 20px;
+    padding: 50px;
+    margin: auto;
+}
+
+/* Infomation 1 END */
+
+/* Information 2 START */
+
+.Info2 {
+    display: block;
+}
+
+#P3 {
+    font-family: "LibreItalic";
+    font-size: 30px;
+    padding-left: 30px;
+    background-color: #86928d;
+    border-radius: 20px;
+}
+
+#Pic2 {
+    width: 460px;
+    height: 400px;
+    transition: 2s;
+    border: 5px solid #86928d;
+    border-radius: 20px;
+    padding: 50px;
+    margin-left: 430px;
+}
+
+/* Information 2 END */
+
+/* Table START */
+
+table {
+    border-collapse: collapse;
+}
+
+.Table {
+    font-size: 20px;
+    font-family: "LibreItalic";
+}
+
+td, th {
+    padding: 20px;
+    text-align: left;
+}
+
+th {
+    background-color:  #86928d;
+}
+
+td {
+    border-collapse: collapse;
+    border-color:  #abb7b7;
+}
+
+tr {
+    transition: transform 2s;
+}
+
+/* Table END */
+
+/* End part START */
+
+.Table2 {
+    display: flex;
+    background-color: #86928d;
+    justify-content: center;
+    align-items: center;
+}
+
+.FarLeft {
+    width: 16.25%;
+    padding-left: 50px;
+}
+
+.Left {
+    width: 16.25%;
+}
+
+.Middle {
+    width: 16.25%;
+}
+
+.Right {
+    width: 35%;
+}
+
+.FarRight {
+    width: 35%;
+}
+
+#CompanyH {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#ServiceH {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#AccountH {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#SourcesH {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#SubscribeH  {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#Input {
+    width: 180px;
+    height: 40px;
+    border: 2px solid #04AA6D;
+    font-family: "LibreItalic";
+    text-align: center;
+}
+
+#Button {
+    width: 180px;
+    height: 40px;
+    background-color: #ddd;
+    border: 2px solid #04AA6D;
+}
+
+/* End part END */
+
+/* Hover START */
+
+.Navigation a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#Pic1:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+tr:hover {
+    cursor: pointer;
+    background-color: #747474;
+    transform: scale(1.02);
+}
+
+#Pic2:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#Button:hover {
+    background-color: #a9a1a1;
+    cursor: pointer;
+}
+
+#Input:hover {
+    background-color: #a9a1a1;
+}
+
+/* Hover END */
+
+/* Active START */
+
+.Navigation a:active {
+    background-color: #04AA6D;
+    color: white;
+} 
+
+#Button:active {
+    background-color: #262222;
+    color: white;
+}
+
+/* Active END */
+
+/* EXTRA */
+
+.Navigation a.split {
+    float: right;
+    background-color: #86928d;
+    color: white;
+}
+
+body {
+    background-color: #d9c9c9;
+}
+
+#Title {
+    font-family: "LibreItalic";
+    font-size: 60px;
+    padding-left: 30px;
+    background-color: #86928d;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#Excuse {
+    font-family: "LibreItalic";
+    font-size: 30px;
+    padding-left: 30px;
+    background-color: #86928d;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
