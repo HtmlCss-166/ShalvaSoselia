@@ -1,0 +1,117 @@
+/* Top part Of Webpage START */
+
+header {
+    display: flex;
+}
+
+#logo {
+    border-radius: 30px;
+    height: 150px;
+    width: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: #C9E4CA;
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    background-color: #c8ad7b;
+    width: 700px;
+    height: 60px;
+    text-align: center;
+    margin-left: 600px;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 40px;
+    z-index: 2;
+}
+
+/* Top part Of Webpage END */
+
+/* Hover START */
+
+a:hover {
+    color: #92bc93;
+    cursor: pointer;
+}
+
+/* Hover END */
+
+/* Active START */
+
+a:active {
+    color: #49764a;
+    cursor: pointer;
+}
+
+/* Active END */
+
+#P1 {
+    text-align: center;
+    font-size: 50px;
+    background-color: #a30010;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 35px;
+}
+
+#P2 {
+    text-align: center;
+    font-size: 50px;
+    background-color: #cf3f4d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 35px;
+}
+
+/* Footer START */
+
+footer {
+    background-color: #FADADD;
+    height: 400px;
+}
+
+.End {
+    display: flex;
+    margin: 70px;
+}
+
+#Logo2 {
+    position: relative;
+    margin-top: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+#P5 {
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Extra1 {
+    display: block;
+    margin: 50px;
+    margin-left: 300px;
+}
+
+.Extra2 {
+    display: block;
+    margin: 50px;
+}
+
+.Extra3 {
+    display: block;
+    margin: 50px;
+}
+
+/* Footer END */
+
+/* EXTRA */
+
+body {
+    background-color: #D1D9E4;
+}
