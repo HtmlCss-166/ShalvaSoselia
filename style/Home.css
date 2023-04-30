@@ -1,0 +1,332 @@
+/* Header */
+
+header {
+    background-color: rgb(39, 45, 97);
+    height: 880px;
+}
+
+nav {
+    display: flex;
+    padding: 30px;
+    padding-left: 150px;
+}
+
+.HelpButtons {
+    display: flex;
+    padding-left: 70px;
+}
+
+.HelpButtons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.LogButtons {
+    display: flex;
+    padding-left: 250px;
+}
+
+.Button2 {
+    padding-left: 20px;
+}
+
+#LogIn {
+    height: 50px;
+    width: 75px;
+    background-color: transparent;
+    border: transparent;
+    color: #fff;
+}
+
+#JoinUs {
+    height: 50px;
+    width: 75px;
+    background-color: rgb(112, 209, 112);
+    color: #fff;
+    border-radius: 20px;
+    border: transparent;
+}
+
+h1 {
+    position: relative;
+    top: 40px;
+    color: rgb(87, 165, 75);
+}
+
+.Paragraphs {
+    width: 600px;
+}
+
+.Info1 {
+    display: flex;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+#P1 {
+    color: #fff;
+    font-size: 80px;
+}
+
+#P2 {
+    color: #fff;
+}
+
+#Picture2 {
+    border-radius: 30px;
+    padding-left: 120px;
+}
+
+#GetQuoteButton {
+    background-color: rgb(112, 209, 112);
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-color: rgb(112, 209, 112);;
+}
+
+#LearnMoreButton {
+    background-color: transparent;
+    border-color: rgb(112, 209, 112);
+    color: rgb(112, 209, 112);
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+/* Info 2 part */
+
+.Info2 {
+    padding-top: 100px;
+}
+
+.Paragraphs2 {
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+}
+
+#P3 {
+    color: rgb(112, 209, 112);
+    font-size: 20px;
+}
+
+#P4 {
+    font-size: 60px;
+}
+
+#P5 {
+    position: relative;
+    color: gray;
+    bottom: 50px;
+}
+
+.ExtraInfo {
+    display: flex;
+    margin-left: 200px;
+}
+
+#Picture3 {
+    border-radius: 20px;
+}
+
+#Picture4 {
+    border-radius: 20px;
+}
+
+#Picture5 {
+    border-radius: 20px;
+}
+
+#Picture6 {
+    border-radius: 20px;
+}
+
+.First {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    box-shadow: -8px 0px 8px #bfbfbf;
+    transition-duration: 2s;
+}
+
+.Second {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin-left: 50px;
+    padding: 20px;
+    top: 60px;
+    box-shadow: -8px 0px 8px #bfbfbf;
+    transition-duration: 2s;
+}
+
+.Third {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin-left: 50px;
+    padding: 20px;
+    box-shadow: -8px 0px 8px #bfbfbf;
+    transition-duration: 2s;
+}
+
+.Forth {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin-left: 50px;
+    padding: 20px;
+    top: 60px;
+    box-shadow: -8px 0px 8px #bfbfbf;
+    transition-duration: 2s;
+}
+
+/* Near the end */
+
+.End {
+    background-color: rgb(39, 45, 97);
+    height: 500px;
+}
+
+#P6 {
+    font-size: 18px;
+    color: rgb(112, 209, 112);
+    text-align: center;
+    padding-top: 50px;
+}
+
+#HeadingSmth {
+    text-align: center;
+    color: #fff;
+}
+
+#P7 {
+    text-align: center;
+    color: #fff;
+}
+
+.Buttons2{
+    position: relative;
+    width: 300px;
+    padding-left: 570px;
+}
+
+#SomePlaceholder {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    padding: 10px 100px 10px 20px; 
+    line-height: 1;
+    box-sizing: border-box;
+    outline: none;
+  
+}
+
+#SubmitButton2 {
+    position: absolute;
+    right: 3px; 
+    top: 3px;
+    bottom: 3px;
+    border: 0;
+    background: rgb(112, 209, 112);
+    color: #fff;
+    outline: none;
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 100px;
+    z-index: 2;
+}
+
+
+/* Hover */
+
+.HelpButtons a:hover {
+    color: rgb(112, 209, 112);
+    text-decoration: underline;
+}
+
+#LogIn:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+#JoinUs:hover {
+    background-color: rgb(87, 165, 75);
+    cursor: pointer;
+}
+
+#GetQuoteButton:hover {
+    background-color: rgb(87, 165, 75);
+    cursor: pointer;
+}
+
+#LearnMoreButton:hover {
+    cursor: pointer;
+}
+
+.First:hover {
+    padding-top: 60px;
+    cursor: pointer;
+    background-color: rgb(87, 165, 75);
+    color: #fff;
+}
+
+.Second:hover {
+    padding-Bottom: 60px;
+    cursor: pointer;
+    background-color: rgb(87, 165, 75);
+    color: #fff;
+}
+
+.Third:hover {
+    padding-top: 60px;
+    cursor: pointer;
+    background-color: rgb(87, 165, 75);
+    color: #fff;
+}
+
+.Forth:hover {
+    padding-Bottom: 60px;
+    cursor: pointer;
+    background-color: rgb(87, 165, 75);
+    color: #fff;
+}
+
+.ExtraInfo p {
+    font-size: 30px;
+}
+
+/* Active */
+
+#JoinUs:active {
+    background-color: rgb(74, 93, 22);
+}
+
+#LogIn:active {
+    color: rgb(87, 165, 75);
+}
+
+#GetQuoteButton:active {
+    background-color: rgb(74, 93, 22);
+}
+
+#LearnMoreButton:active {
+    color: #fff;
+    border-color: #fff;
+}
+
+/* extra */
+
+#Uhm {
+    padding-top: 100px;
+    text-align: center;
+    color: black;
+    margin: 100px;
+}
+  
