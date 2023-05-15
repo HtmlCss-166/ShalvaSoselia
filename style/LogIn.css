@@ -1,0 +1,117 @@
+body {
+    background-image: url(/Photos/Logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+
+/* Log In page */
+
+@font-face {
+    font-family: BrunoAce;
+    src: url(/font/BrunoAce-Regular.ttf);
+}
+
+.LogInForm {
+    background: rgba(255,255,255, 0.5);
+    border: 5px solid white;
+    height: 250px;
+    width: 500px;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+label {
+    font-family: "BrunoAce";
+}
+
+.InsideContent {
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.LogInSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#ForgotPassword {
+    position: relative;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 5px;
+    color: rgba(92,55,47,255);
+}
+
+#ForgotPassword:hover {
+    -webkit-text-decoration: underline white;
+            text-decoration: underline white;
+}
+
+.LogInSection {
+    z-index: 30;
+}
+
+.LogInSection button {
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.LogInSection button:hover {
+    cursor: pointer;
+    color: brown;
+    border-radius: 20px;
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+.Line {
+    width: 80%;
+    height: 1px;
+}
+
+input {
+    border-radius: 30px;
+    height: 30px;
+}
+
+.ForgotPassNNotReg p {
+    position: relative;
+    bottom: 9px;
+}
+
+.ForgotPassNNotReg button {
+    position: relative;
+    bottom: 27px;
+    color: white;
+    background-color: rgba(92,55,47,255);
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.ForgotPassNNotReg button:hover {
+    background-color: brown;
+}

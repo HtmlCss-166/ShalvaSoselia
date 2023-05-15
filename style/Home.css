@@ -1,0 +1,568 @@
+:root {
+    --brown: rgba(92,55,47,255);
+    --red: rgba(209,65,36,255);
+    --silver: rgb(220,220,220);
+    --GreenGray: rgb(47,79,79);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+
+@font-face {
+    font-family: BrunoAce;
+    src: url(/font/BrunoAce-Regular.ttf);
+}
+
+nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.NavigationBar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    background-color: var(--brown);
+}
+
+.NavigationBar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+}
+
+.NavigationBar ul li {
+    padding: 10px 30px;
+    position: relative;
+}
+
+.NavigationBar ul li a {
+    color: var(--silver);
+    font-family: "BrunoAce";
+    text-decoration: none;
+}
+
+.DropDownMenu {
+    display: none;
+}
+
+.NavigationBar ul li:hover .DropDownMenu {
+    display: block;
+    position: absolute;
+    right: 0;
+    list-style: none;
+    top: 100%;
+    background-color: var(--brown);
+    width: 180px;
+}
+
+.DropDownMenu ul {
+    display: block;
+    margin: 10px;
+    position: relative;
+    right: 10px;
+}
+
+.DropDownMenu ul li a {
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+#Icon {
+    position: relative;
+    right: 20px;
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+    color: #fff;
+    cursor: pointer;
+    display: block;
+}
+
+#AboutUsButton::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 5px;
+    left: 0;
+    background-color: rgb(220,220,220);
+    -webkit-transform-origin: bottom right;
+        -ms-transform-origin: bottom right;
+            transform-origin: bottom right;
+    -webkit-transition: -webkit-transform 0.25s ease-out;
+    transition: -webkit-transform 0.25s ease-out;
+    -o-transition: transform 0.25s ease-out;
+    transition: transform 0.25s ease-out;
+    transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+}
+
+#AboutUsButton:hover::after {
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: bottom left;
+        -ms-transform-origin: bottom left;
+            transform-origin: bottom left;
+}
+
+#HomeButton::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 5px;
+    left: 0;
+    background-color: rgb(220,220,220);
+    -webkit-transform-origin: bottom right;
+        -ms-transform-origin: bottom right;
+            transform-origin: bottom right;
+    -webkit-transition: -webkit-transform 0.25s ease-out;
+    transition: -webkit-transform 0.25s ease-out;
+    -o-transition: transform 0.25s ease-out;
+    transition: transform 0.25s ease-out;
+    transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+}
+
+#HomeButton:hover::after {
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: bottom left;
+        -ms-transform-origin: bottom left;
+            transform-origin: bottom left;
+}
+
+#GalleryButton::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 5px;
+    left: 0;
+    background-color: rgb(220,220,220);
+    -webkit-transform-origin: bottom right;
+        -ms-transform-origin: bottom right;
+            transform-origin: bottom right;
+    -webkit-transition: -webkit-transform 0.25s ease-out;
+    transition: -webkit-transform 0.25s ease-out;
+    -o-transition: transform 0.25s ease-out;
+    transition: transform 0.25s ease-out;
+    transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+}
+
+#GalleryButton:hover::after {
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: bottom left;
+        -ms-transform-origin: bottom left;
+            transform-origin: bottom left;
+}
+
+
+/* Lower half of header */
+
+#P1 {
+    position: relative;
+    text-align: center;
+    font-family: "BrunoAce";
+    background-color: var(--silver);
+    margin: 0px 30%;
+    padding: 30px;
+    border-radius: 40px;
+    z-index: 2;
+    bottom: 350px;
+    font-size: 30px;
+    color: var(--red);
+    border: 4px solid var(--red);
+}
+
+/* Info 1 */
+
+.Info1 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: var(--red);
+    border-radius: 20px;
+    position: relative;
+    bottom: 200px;
+    padding: 50px;
+}
+
+#P2 {
+    font-family: "brunoAce";
+    width: 70%;
+    font-size: 20px;
+    color: var(--silver);
+    border: 5px solid var(--brown);
+    border-radius: 40px;
+    padding: 20px;
+    background-color: var(--brown);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#P3 {
+    position: relative;
+    top: 20px;
+    font-family: "brunoAce";
+    width: 90%;
+    font-size: 15px;
+    color: var(--silver);
+    border: 5px solid var(--brown);
+    border-radius: 40px;
+    padding: 20px;
+    background-color: var(--brown);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#P2:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    cursor: pointer;
+}
+
+#P3:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    cursor: pointer;
+}
+
+#Ad1 {
+    border-radius: 30px;
+    border: 5px solid var(--silver);
+    padding: 30px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+#Ad1:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    cursor: pointer;
+}
+
+.Helper {
+    width: 120px;
+    height: 100px;
+    position: relative;
+    background-color: var(--silver);
+    bottom: 265px; 
+    left: 800px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.Helper:after {
+  content:"";
+  -webkit-animation: Helper 20s linear infinite;
+          animation: Helper 20s linear infinite;
+}
+
+@-webkit-keyframes Helper {
+    0% { content:"Hello!"; position: relative; top: 40%;}
+    20% { content:"I am your..";position: relative; top: 40%;}
+    40% { content:"Helper!";}
+    60% { content: "this is weird..";}
+    65% { content: "i am supposed to provide you with information"; position: relative; top: 10px;}
+    75% { content: "But the server seems to be down"; position: relative; top: 20px;}
+    85% {content: "Sorry for misunderstaing!"; position: relative; top: 30px;}
+    100% {content: "We hope to see you soon"; position: relative; top: 40%;}
+}
+
+@keyframes Helper {
+    0% { content:"Hello!"; position: relative; top: 40%;}
+    20% { content:"I am your..";position: relative; top: 40%;}
+    40% { content:"Helper!";}
+    60% { content: "this is weird..";}
+    65% { content: "i am supposed to provide you with information"; position: relative; top: 10px;}
+    75% { content: "But the server seems to be down"; position: relative; top: 20px;}
+    85% {content: "Sorry for misunderstaing!"; position: relative; top: 30px;}
+    100% {content: "We hope to see you soon"; position: relative; top: 40%;}
+}
+
+/* Info 2 */
+
+#P4 {
+    text-align: center;
+    font-family: "brunoAce";
+    position: relative;
+    bottom: 70px;
+}
+
+#P4 a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: var(--brown);
+}
+
+#P5 {
+    text-align: center;
+    font-family: "brunoAce";
+    position: relative;
+    bottom: 72px;
+    font-size: 14px;
+}
+
+/* Booking submittion */
+
+.BookingForm {
+    padding: auto;
+    margin: auto;
+    width: 80%;
+    background-color: var(--brown);
+    border-radius: 50px;
+}
+
+#EmailSubmitInput {
+    width: 900px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 900px;
+    height: 50px;
+    z-index: 5;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 2px solid var(--red);
+}
+
+#EmailSubmitInput:hover {
+    border: 2px solid var(--red);
+}
+
+#EmailSubmitInput:active {
+    border: 2px solid var(--red);
+}
+
+#EmailSubmitButton {
+    position: relative;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: var(--brown);
+    color: var(--silver);
+    border: 2px solid var(--red);
+    cursor: pointer;
+    bottom: 45px;
+    left: 895px;
+}
+
+#CreditCardSubmitInput {
+    width: 900px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 750px;
+    height: 50px;
+    z-index: 5;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 2px solid var(--red);
+}
+
+#CreditCardChecker {
+    position: relative;
+    height: 60px;
+    width: 100px;
+    font-size: 20px;
+    background-color: var(--brown);
+    color: var(--silver);
+    border: 2px solid var(--silver);
+    cursor: pointer;
+    bottom: 55px;
+    left: 895px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#CreditCardChecker:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    border: 5px solid var(--red);
+    color: var(--red);
+    text-decoration: underline;
+}
+
+#FloorBooking {
+    height: 50px;
+    width: 25%;
+    position: relative;
+    margin-left: 100px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 2px solid var(--red);
+}
+
+#TimeBooking {
+    height: 50px;
+    width: 25%;
+    position: relative;
+    border-radius: 50px;
+    font-size: 20px;
+    bottom: 50px;
+    left: 405px;
+    border: 2px solid var(--red);
+}
+
+#SeatBooking {
+    height: 50px;
+    width: 25%;
+    position: relative;
+    border-radius: 50px;
+    font-size: 20px;
+    bottom: 100px;
+    left: 710px;
+    border: 2px solid var(--red);
+}
+
+#PhonePlacehorder {
+    width: 400px;
+    font-size: 20px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid var(--red);
+    margin-left: 100px;
+}
+
+#SubmissionButton {
+    width: 500px;
+    height: 70px;
+    position: relative;
+    bottom: 65px;
+    left: 550px;
+    font-size: 40px;
+    font-family: "BrunoAce";
+    background-color: var(--red);
+    color: var(--silver);
+    border-radius: 20px;
+    border: 5px solid var(--silver);
+}
+
+#SubmissionButton:hover {
+    background-color: rgb(106, 65, 46);
+    cursor: pointer;
+}
+
+#SubmissionButton:active {
+    background-color: rgb(59, 29, 16);
+} 
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 500px;
+}
+
+#P6 {
+    width: 100%;
+    height: 200px;
+    background-color: var(--silver);
+    color: var(--silver);
+}
+
+.BottomPart {
+    background-color: black;
+    height: 300px;
+}
+
+.Icons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: inline-block;
+    position: relative;
+    margin-left: 34%;
+    margin-right: 34%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    top: 50px;
+}
+
+.Icons i {
+    font-size: 70px;
+    padding: 0px 20px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    color: var(--silver);
+}
+
+.Icons i:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+#P7 {
+    color: var(--silver);
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+
+.Icons i {
+    font-size: 70px;
+    padding: 0px 20px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    color: var(--silver);
+}
+
+.Icons i:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+#P7 {
+    color: var(--silver);
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
