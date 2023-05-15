@@ -1,0 +1,135 @@
+#title {
+    text-align: center;
+    font-size: 50px;
+    border: 5px solid rgb(54, 69, 79);
+    background-color: rgb(194, 194, 170);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: neule;
+    src: url(/Lesson5HW/fonts/fonts/BebasNeue-Regular.ttf);
+}
+
+body {
+    background-color: rgb(190, 191, 215);
+}
+
+.container {
+    display: flex;
+}
+
+#left {
+    width: 35%;
+}
+
+#middle {
+    width: 35%;
+}
+
+#right {
+    width: 30%;
+}
+
+#pic1 {
+    width: 400px;
+    height: 400px;
+    border-radius: 20%;
+    float: left;
+}
+
+#pic2 {
+    width: 400px;
+    height: 400px;
+    border-radius: 20%;
+}
+
+#pic3 {
+    width: 400px;
+    height: 400px;
+    border-radius: 20%;
+    float: right;
+}
+
+#p1 {
+    font-size: 30px;
+    font-family: "neule";
+    background-color: rgb(194, 194, 170);
+}
+
+#p2 {
+    font-size: 30px;
+    font-family: "neule";
+    background-color: rgb(194, 194, 170);
+}
+
+#p3 {
+    font-size: 30px;
+    font-family: "neule";
+    background-color: rgb(194, 194, 170);
+}
+
+#p4 {
+    font-size: 30px;
+    font-family: "neule";
+    background-color: rgb(194, 194, 170);
+}
+
+#p5 {
+    font-size: 30px;
+    font-family: "neule";
+    font-style: italic;
+    background-color: rgb(232, 232, 232);
+    text-align: center;
+    border-radius: 40px;
+}
+
+#p6 {
+    font-size: 30px;
+    font-family: "neule";
+    background-color: rgb(194, 194, 170);
+}
+
+
+#list {
+    font-family: "neule";
+    font-style: italic;
+    background-color: rgb(232, 232, 232);
+    border-radius: 20px;
+}
+
+#ListTop th {
+    border: 5px solid rgb(170, 170, 146);
+    background-color: rgb(232, 232, 232);
+    font-size: 30px;
+}
+
+#ListMiddle td {
+    border: 5px solid rgb(218, 165, 32);
+    background-color: rgb(255, 229, 180);
+    font-style: italic;
+    font-size: 20px;
+}
+
+#ListBottom td {
+    border: 5px solid rgb(218, 165, 32);
+    background-color: rgb(255, 229, 180); 
+    font-style: italic;
+    font-size: 20px;
+}
+
+.Table {
+    width: 800px;
+    height: 100px;
+}
+
+#button {
+    font-size: 20px;
+}
+
+#input {
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+
+}
